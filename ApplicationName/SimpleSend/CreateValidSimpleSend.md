@@ -27,3 +27,5 @@ Where appropriate, tests should be run using the end-user UI and using the API d
     * U2 Recipient address
 1. U1: See that you no longer own the amount transferred
 1. U2: See that you now own the amount transferred
+
+The tester and developer should work together to write and run procedures that thoroughly test this functionality in the AUT.

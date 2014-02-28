@@ -9,10 +9,7 @@ thing to be tested. Less ideally, the test plan is created by the
 developer and reviewed by QA to try to catch edge-cases the developer
 didn't think about testing.
 
-There is no global list of all test plans; instead, pull requests,
-forum posts, or whatever makes sense for the thing being tested (new
-feature, release candidate) just link to the relevant master test plan
-or plans.  If we need or want to re-test something later, old test
+If we need or want to re-test something later, old test
 plans will be cloned or edited.
 
 Creating a new plan
@@ -20,9 +17,9 @@ Creating a new plan
 
 1. Fork this repository<br/>
   ![github fork](https://copy.com/2laWomE4VjAj)
-2. Create a new file to contain the new test plan. Try to choose a good filename.<br/>
+2. Create a copy of the **ApplicationName** directory and subdirectories, and name it for application to be tested, e.g. OmniWallet.<br/>
   ![github add](https://copy.com/IWYNSeKhu3XA)
-3. Create the test plan in QA/TestPlans; copy/paste the [TestPlanSkeleton.md](TestPlanSkeleton.md) template to start.
+3. Edit each test procedure file to tailor the steps to the application to be tested.
 
 Testing
 --

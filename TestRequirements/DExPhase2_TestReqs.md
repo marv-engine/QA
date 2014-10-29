@@ -50,7 +50,6 @@ Positive tests should exercise as many combinations and conditions as possible, 
 ### Create a Sell Order that fully fills an existing Sell Order, with an unfilled Amount desired
 
 ## Negative Tests - Invalid
-These tests are the same as the Negative Tests for Simple Send.
 ### Attempt to Create an Incorrect Sell Order
 1. U1: Attempt to create tx21 message(s):
     * Currency identifier for sale = 0 or any non-existent id or any id not owned by the address

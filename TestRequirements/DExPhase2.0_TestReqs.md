@@ -1,4 +1,4 @@
-# DEx Phase 2
+# DEx Phase 2.0
 
 Transaction Type 21: [Sell Master Protocol Coins for Another Master Protocol Currency](https://github.com/mastercoin-MSC/spec/blob/master/README.md#sell-master-protocol-coins-for-another-master-protocol-currency)
 
@@ -65,6 +65,6 @@ Positive tests should exercise as many combinations and conditions as possible, 
 1. U2: See that a sell order has not been created (or modified or canceled)
 1. U2: See that the seller's available and reserved balances are unchanged
 
-[DEx Phase 2.0 Tests](https://docs.google.com/a/engine.co/spreadsheets/d/1oL2jGfG3BwslURyDTYNvM6Z2p79ux46NmwcXDYleEbg/edit#gid=0) has sequences of tx21 transactions with expected outcomes.
+The spreadsheet [DEx Phase 2.0 Tests](https://docs.google.com/a/engine.co/spreadsheets/d/1oL2jGfG3BwslURyDTYNvM6Z2p79ux46NmwcXDYleEbg/edit#gid=0) has sequences of tx21 transactions with expected outcomes. Tests and sequences will be added/improved over time.
 
 The tester and developer should work together to write and run procedures that thoroughly test this functionality in the AUT.
